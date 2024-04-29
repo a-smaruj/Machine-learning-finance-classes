@@ -4,6 +4,8 @@ This is an obligatory project created for "machine learning" classes taught at t
 ## Classes file
 
 - [MLF_class_classification.ipynb](https://github.com/a-smaruj/Machine-learning-finance-classes/blob/main/MLF_class_classification.ipynb)
+- [MLF_class_backtest.ipynb](https://github.com/a-smaruj/Machine-learning-finance-classes/blob/main/MLF_class_backtest.ipynb)
+- [MLF_class_time_series.ipynb](https://github.com/a-smaruj/Machine-learning-finance-classes/blob/main/MLF_class_time_series.ipynb)
 
 ## Homeworks file
 
@@ -24,4 +26,10 @@ Three models were used: the KNeighbors model, SVM, and Balanced Logistic Regress
 - Results
 
 It turned out that the dataset including categorical variables had better scores. Two models (Logistic Regression and SVM) have perfect predictions.
+
+### [Use Case 2](https://github.com/a-smaruj/Machine-learning-finance-classes/blob/main/Use_case_2.ipynb)
+
+This file contains the recommendation system for movies. At first, Sparse Matrix and kNearestNeighbors were used. Then based on the surprise packages, two more recommendation systems were created, with algorithm SVD and KNNBaseline. To improve the system, the optimal number for k nearest neighbours was estimated. To compare systems, cross-validation as well as tests on examples were conducted.
+
+
 
